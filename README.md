@@ -15,7 +15,7 @@
 1. Install `git`, `conda` and setup your `ssh` credentials in GitHub.
 2. Clone this repo, and `cd` into it (use terminal)
 ```bash
-git clone https://github.com/nveshaan/cryoET-kaggle-contest.git
+git clone git@github.com:nveshaan/cryoET-kaggle-contest.git
 cd cryoET-kaggle-contest
 ```
 3. Create a new Conda environment
