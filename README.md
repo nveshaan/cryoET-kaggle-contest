@@ -38,15 +38,20 @@ pip install --no-deps morphospaces
 pip install --no-deps git+https://github.com/copick/copick-torch.git
 
 pip install copick
+pip install napari
+pip install monai
 
 conda install -c conda-forge pyqt
 conda install -c conda-forge pyside2
+
+# incase it doesn't work, run the below command too
+pip install pyqt5-tools
 ```
 > **WARNING!** There could be some errors in the installation steps. Please run the `test.ipynb` to check if everything is installed. If not, follow the suggestions shown in the error log. Use Google/StackOverFlow to address the issues.
 
 > Often, the output specifies what packages are missing, just simply run the following in your terminal.
 ```bash
-pip install `missing-package-name`
+conda install -c conda-forge `missing-package-name`
 ```
 5. If everything is installed correctly, you should be able to visualize the layers in `test.ipynb`. Run in the `env` we just created, not in `base`.
 6. Note that it is a sample only, you need to download the dataset separately from Kaggle. Contact me if you need help.
