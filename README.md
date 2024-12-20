@@ -48,7 +48,8 @@ conda install -c conda-forge pyside2
 ```bash
 pip install `missing-package-name`
 ```
-5. If everything is installed correctly, you should be able to visualize the layers in `test.ipynb`. Note that it is a sample only, you need to download the dataset separately from Kaggle. Contact me if you need help.
+5. If everything is installed correctly, you should be able to visualize the layers in `test.ipynb`. Run in the `env` we just created, not in `base`.
+6. Note that it is a sample only, you need to download the dataset separately from Kaggle. Contact me if you need help.
 
 ## Project Organization
 
