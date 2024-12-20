@@ -51,7 +51,7 @@ pip install pyqt5-tools
 
 > Often, the output specifies what packages are missing, just simply run the following in your terminal.
 ```bash
-conda install -c conda-forge `missing-package-name`
+pip install `missing-package-name`
 ```
 5. If everything is installed correctly, you should be able to visualize the layers in `test.ipynb`. Run in the `env` we just created, not in `base`.
 6. Note that it is a sample only, you need to download the dataset separately from Kaggle. Contact me if you need help.
